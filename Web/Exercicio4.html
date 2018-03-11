@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8"/>
+      <title>Exercicio 4</title>
+      <style>
+         table, th, td {
+         text-align: center;
+         border: 1px solid black;
+         }
+         th, td {
+         color: blue;
+         font-weight: bold;
+         font-style: italic;
+         }
+         #titulo__tabela {
+         margin: 0 auto;
+         font-size: 12px;
+         padding-left: 10%;
+         }
+         .nome__aluno {
+         font-style: italic;
+         font-weight: bold;
+         color: black;
+         background-color: grey;
+         }
+         .chamada__frequencia {
+         color: green;
+         background-color: yellow;
+         font-weight: normal;
+         font-style: normal;
+         }
+         .nota__final {
+         font-style: italic;
+         font-weight: bold;
+         color: black;
+         background-color: red;
+         }
+      </style>
+   </head>
+   <body>
+      <p>Disciplina de Introdução ao Desenvolvimento WEB</p>
+      <p id="titulo__tabela">Relação de Alunos e Notas</p>
+      <table>
+         <tr>
+            <th>Aluno</th>
+            <th>Frequência</th>
+            <th>1ª Chamada</th>
+            <th>2ª Chamada</th>
+            <th>Final</th>
+         </tr>
+         <tr>
+            <td class="nome__aluno">Ana Maria</td>
+            <td class="chamada__frequencia">12.5</td>
+            <td class="chamada__frequencia">14.2</td>
+            <td class="chamada__frequencia"></td>
+            <td class="nota__final">14</td>
+         </tr>
+         <tr>
+            <td class="nome__aluno">João</td>
+            <td class="chamada__frequencia">11.5</td>
+            <td class="chamada__frequencia">12.2</td>
+            <td class="chamada__frequencia"></td>
+            <td class="nota__final">13</td>
+         </tr>
+         <tr>
+            <td class="nome__aluno">Rui Manuel</td>
+            <td class="chamada__frequencia">12.5</td>
+            <td class="chamada__frequencia">13.2</td>
+            <td class="chamada__frequencia"></td>
+            <td class="nota__final">13</td>
+         </tr>
+         <tr>
+            <td colspan="4">Média</td>
+            <td>13.3</td>
+         </tr>
+      </table>
+   </body>
+</html>
